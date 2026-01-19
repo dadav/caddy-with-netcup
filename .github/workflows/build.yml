@@ -4,8 +4,6 @@ name: Build caddy with addons
 on:
   workflow_dispatch:
   push:
-    tags:
-      - "*"
 
 env:
   REGISTRY: ghcr.io
