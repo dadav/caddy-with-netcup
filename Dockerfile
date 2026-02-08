@@ -3,6 +3,6 @@ FROM docker.io/caddy:2.10.2-builder-alpine@sha256:afedc89367579c34450cdd8434cb6c
 RUN xcaddy build \
   --with github.com/caddy-dns/netcup
 
-FROM docker.io/caddy:2.10.2-alpine@sha256:f2b257f20955d6be2229bed86bad24193eeb8c4dc962a4031a6eb42344ffa457
+FROM docker.io/caddy:2.10.2-alpine@sha256:7f4c19ed8c32f961644681823de1a2fe5b74c84a45d0f3995286010c84b6c554
 
 COPY --from=builder /usr/bin/caddy /usr/bin/caddy
