@@ -1,4 +1,4 @@
-FROM docker.io/caddy:2.11.4-builder-alpine@sha256:7bac9be4072f7c4db2ccc7350750e0705004bf02da2ac7d96b1469ca4f28bb7c AS builder
+FROM docker.io/caddy:2.11.4-builder-alpine@sha256:2b9f32cbba6045e79212bb253f595588d20be8f7d1edf61582c519e124e0d2d8 AS builder
 
 RUN xcaddy build \
   --with github.com/caddy-dns/netcup
