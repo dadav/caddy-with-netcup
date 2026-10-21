@@ -1,6 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices", "schedule:earlyMondays"],
+  "extends": [
+    "config:best-practices",
+    "customManagers:dockerfileVersions",
+    "schedule:earlyMondays"
+  ],
   "bumpVersion": "patch",
   "prHourlyLimit": 4
 }
