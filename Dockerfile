@@ -1,4 +1,4 @@
-FROM docker.io/caddy:2.11.7-builder-alpine@sha256:d718a1d1431403c4a46698f33ad1c0f9dd5dd7fe2bae654d1027d275b6fb5fd7 AS builder
+FROM docker.io/caddy:2.11.7-builder-alpine@sha256:95a5e7e2692b5eb9545aadc5b90a39f6f509bee59c9508a493f83ee902eaef63 AS builder
 
 # renovate: datasource=go depName=github.com/caddy-dns/netcup
 ARG NETCUP_VERSION=v1.0.0
